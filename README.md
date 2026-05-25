@@ -114,7 +114,7 @@ mvn exec:java -Dexec.mainClass="com.example.WebhookProducer"
 ## 📊 Visualizing in Kafka UI
 
 Open [http://localhost:8080](http://localhost:8080) in your web browser. From the dashboard, you can:
-* **View Topics:** Inspect the auto-created `incoming-interactions` topic.
+* **View Topics:** Inspect the auto-generated `incoming-interactions` topic.
 * **Monitor Consumers:** Inspect the state of `action-service-group` and `analytics-service-group` to verify consumer offsets.
 * **Inspect Messages:** Watch the raw JSON event stream in real-time under the "Messages" tab.
 
